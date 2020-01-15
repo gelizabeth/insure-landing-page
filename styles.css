@@ -243,6 +243,9 @@ width: 16rem;
       top:22.2rem;
       z-index: 0;
     }
+    .bg-pattern{
+      display: none;
+    }
 
 }
 h1,
