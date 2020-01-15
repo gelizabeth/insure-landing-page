@@ -390,6 +390,11 @@ width: 16rem;
   }
 
 }
+@media (min-width: 376px){
+  .hidden-mobile{
+    display: none;
+  }
+}
 h1,
 h2,
 h3,
