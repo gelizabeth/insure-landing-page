@@ -207,7 +207,7 @@ align-items: center;
     display:none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .nav__container{
     width: 100%;
 
@@ -242,6 +242,13 @@ width: 16rem;
       left: 0;
       top:22.2rem;
       z-index: 0;
+      width: 100%;
+    }
+    .bg-pattern{
+      display: none;
+    }
+    .bg-pattern{
+      display: none;
     }
 
 }
