@@ -391,7 +391,11 @@ width: 16rem;
 
 }
 @media (min-width: 376px){
+<<<<<<< HEAD
   .hidden-desktop{
+=======
+  .hidden-mobile{
+>>>>>>> 57e75458907eecd9bd8fab20314a1cf6ff6ff1a1
     display: none;
   }
 }
