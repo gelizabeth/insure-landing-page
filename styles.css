@@ -114,16 +114,23 @@ body{
   color: hsl(273, 4%, 51%);
   line-height: 1.5rem;
 }
-.work{
+.work {
 
   margin: 5rem 0;
   background-color: hsl(256, 26%, 20%);
   color: white;
 width: 100%;
-display: flex;
+
 height: 15.875rem;
-justify-content: space-around;
-align-items: center;
+
+}
+.work .content{
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
 .work button{
   width: 8rem;
@@ -174,7 +181,7 @@ align-items: center;
 .footer__container i:hover {
   color: hsl(256, 26%, 20%);
 }
-.footer__container ul li{
+.footer__container :last-of-type  ul li{
   list-style: none;
   text-transform: uppercase;
   color: hsl(256, 26%, 20%);
@@ -218,7 +225,7 @@ align-items: center;
     margin: 0;
   }
     .nav__container--right{
-      padding:3rem 0 15rem 0;
+      padding:3rem 0 3rem 0;
       display: flex;
       flex-direction: column;
 
@@ -245,14 +252,27 @@ width: 16rem;
     }
     .bg-pattern-mobile{
       display: block;
-      position: absolute;
+      position: relative;
       z-index: 1;
-      width: 100%;
+
+    }
+    .nav__container{
+      position: absolute;
+    }
+    #navbarNav{
+      position: relative;
+      left: -4%!important;
+    }
+    .navbar{
+      padding-bottom: 0;
     }
     .nav__container .bg-pattern-mobile{
       z-index: 0;
+      right: 0;
       left: 0;
-      top:22.2rem;
+      bottom: 0;
+      width: 375px;
+      height: 218px;
     }
     .hidden-mobile{
       display: none;
@@ -261,6 +281,7 @@ width: 16rem;
       display: none;
     }
     .header__container{
+      position: relative;
       margin: 0;
       padding: 0;
       background-color: hsl(256, 26%, 20%);
@@ -271,13 +292,18 @@ width: 16rem;
     }
     .header__container .humanizing{
       text-align: center;
-      position: static;
-      z-index: 1;
-
+      position: relative;
+      z-index: 2;
       font-size: 0.95rem;
-      padding: 3rem ;
+      padding: 0rem 3rem 3rem 3rem ;
+      height: 480px;
+    }
+    .header__container .content{
+      position: relative;
+      top: -6.875rem;
     }
     .header__container h1{
+      z-index: 1;
       font-size: 2.6rem;
     }
     .header__container p{
@@ -288,15 +314,27 @@ width: 16rem;
       color: hsl(256, 26%, 20%);
     }
 
-    .header__container .bg-pattern-mobile{
-      left: 0;
-      top:32.2rem;
+    .header__container .humanizing .bg-pattern-mobile{
+      left:-3rem;
+      top:0;
       z-index: -1;
+    }
+    .content__container .bg-pattern-mobile{
+      right: -14rem;
+      top:-15rem;
+      z-index: 100;
+    }
+    .content__container .content{
+      position: relative;
+      top:-20rem;
     }
     .content__container{
       padding: 4rem 2rem;
       margin: 0;
       text-align: center;
+      z-index: 2;
+      background: white;
+      height: 105rem;
     }
     .content__container h1{
       font-size: 2.6rem;
@@ -305,25 +343,52 @@ width: 16rem;
       border: 0;
       background-color: hsl(256, 26%, 20%);
       width: 8rem;
-      margin:4rem auto;
+      margin:2rem auto;
     }
-    .content__container .bg-pattern-mobile{
-      top:52rem;
-      right: -15rem;
-    }
+
     .work{
-      padding: 4rem 2rem 4rem 2rem;
+
       height: 22rem;
+      position: relative;
+      z-index: 0;
+
     }
     .work h2{
       font-size: 2.4rem;
     }
     .work .bg-pattern-mobile{
-
-      top:138.5rem;
-      right: -11.5rem;
-      z-index: 0;
+      position: relative;
+      z-index: 1;
+      right: -10rem;
+      top: 0;
     }
+    .work .content{
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+      margin-top: 5rem;
+    }
+  .footer__container{
+    text-align: center;
+    padding: 0;
+  }
+  .footer__container .bg-pattern-mobile{
+    top:0;
+    left:0;
+  }
+  .footer__container .content{
+    position: relative;
+    top:-5rem;
+    padding: 0 6rem 0 6rem;
+  }
+  .footer__container .content :last-of-type div ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 }
 h1,
 h2,
