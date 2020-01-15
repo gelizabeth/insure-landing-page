@@ -1,0 +1,209 @@
+
+h1{
+  font-family: 'DM Serif Display', serif;
+}
+body{
+  font-family: 'Karla', sans-serif;
+}
+.bg-pattern{
+  position: absolute;
+  z-index: 1;
+}
+.bg-pattern-left{
+  left:0;
+  top: 29.5rem;
+}
+.bg-pattern-right{
+  right: 0;
+  top:0;
+}
+.work .bg-pattern{
+  right:7.5rem;
+}
+.footer__container .bg-pattern{
+  position: absolute;
+  left: 0;
+  top: 121rem;
+}
+.nav__container{
+  padding: 0 7rem;
+  background: white;
+  min-height: 4rem;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+.nav__container--right {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  }
+.nav__container--right a {
+     text-transform: uppercase;
+     color: hsl(216, 30%, 68%);
+}
+.nav__container--right a:hover {
+       color: hsl(256, 26%, 20%);
+}
+.btn-outline-violet,.btn-violet:hover{
+  color: hsl(256, 26%, 20%);
+  border: hsl(256, 26%, 20%) solid 0.1rem;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+
+.header__container{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  padding: 8rem;
+  margin-bottom: 10rem;
+  height: 36rem;
+}
+.header__container hr{
+  width: 7rem;
+  height: 1px;
+  border:0;
+  background: white;
+  margin: 0 0 3rem 0;
+}
+.btn-outline-violet:hover{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+.btn-violet{
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border: white solid 0.1rem;
+  font-size: .9rem;
+  width: 7rem;
+  text-transform: uppercase;
+}
+.content__container{
+  padding: 8rem 4rem;
+}
+.content__container hr{
+  width: 7rem;
+  height: 1px;
+  border:0;
+  background: hsl(273, 4%, 51%);
+  margin: 0 0 3rem 0;
+}
+.content__container--inner{
+  padding-top: 2rem;
+}
+.content__container--inner img{
+  margin: 2rem 0 2rem 0;
+}
+.content__container--inner p{
+  padding-top: 1rem;
+  color: hsl(273, 4%, 51%);
+  line-height: 1.5rem;
+}
+.work{
+
+  margin: 5rem 0;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+width: 100%;
+display: flex;
+height: 15.875rem;
+justify-content: space-around;
+align-items: center;
+}
+.work button{
+  width: 8rem;
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+
+}
+
+.footer__container{
+  padding: 3rem 8rem;
+  background-color: hsl(0, 0%, 98%);
+
+}
+
+.footer__container :first-of-type div ul{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__container :first-of-type div ul a{
+  color: hsl(273, 4%, 51%);
+  font-size: 1.8rem;
+}
+.footer__container a:hover{
+  color: hsl(270, 9%, 17%);
+}
+.footer__container hr{
+
+  height: 1px;
+  border:0;
+  background:hsl(273, 4%, 80%);
+  margin: 0 0 3rem 0;
+}
+.footer__container ul {
+  padding: 0;
+  position:relative;
+  z-index: 2;
+}
+.footer__container h6 {
+  text-transform: uppercase;
+  color: hsl(273, 4%, 51%);
+  font-family: 'karla';
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.footer__container i:hover {
+  color: hsl(256, 26%, 20%);
+}
+.footer__container ul li{
+  list-style: none;
+  text-transform: uppercase;
+  color: hsl(256, 26%, 20%);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.footer__container ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer__container img{
+  position:relative;
+  z-index: 2;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DM Serif Display';
+  font-weight: 400; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2rem; }
+
+a,
+p,
+li {
+  font-family: 'Karla';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+}
