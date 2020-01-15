@@ -217,7 +217,7 @@ height: 15.875rem;
     display:none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .nav__container{
     width: 100%;
 
@@ -389,6 +389,11 @@ width: 16rem;
     justify-content: space-between;
   }
 
+}
+@media (min-width: 376px){
+  .hidden-desktop{
+    display: none;
+  }
 }
 h1,
 h2,
