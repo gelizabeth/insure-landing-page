@@ -17,9 +17,13 @@ body{
   right: 0;
   top:0;
 }
+.bg-pattern-mobile{
+  display: none;
+}
 .work .bg-pattern{
   right:7.5rem;
 }
+
 .footer__container .bg-pattern{
   position: absolute;
   left: 0;
@@ -31,7 +35,9 @@ body{
   width: 100%;
   z-index: 100;
   position: relative;
+ padding: 0 120px 0 120px;
 }
+
 .nav__container--right {
 
   display: grid;
@@ -39,6 +45,7 @@ body{
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
+
   }
 .nav__container--right a {
      text-transform: uppercase;
@@ -61,6 +68,7 @@ body{
   padding: 8rem;
   margin-bottom: 10rem;
   height: 36rem;
+
 }
 .header__container hr{
   width: 7rem;
@@ -200,6 +208,12 @@ align-items: center;
 }
 
 @media (max-width: 375px) {
+  .nav__container{
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+  }
     .nav__container--right{
       padding:3rem 0 15rem 0;
       display: flex;
@@ -223,6 +237,7 @@ width: 16rem;
       background: linear-gradient(to bottom,white 4rem, hsl(270, 9%, 17%) 4rem);
     }
     .bg-pattern-mobile{
+      display: block;
       position: absolute;
       left: 0;
       top:22.2rem;
