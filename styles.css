@@ -217,7 +217,7 @@ height: 15.875rem;
     display:none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .nav__container{
     width: 100%;
 
