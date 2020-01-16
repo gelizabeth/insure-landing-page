@@ -14,7 +14,9 @@ body {
   position: absolute;
   z-index: 1;
 }
-
+.content__container .content{
+  margin: 0 6%;
+}
 .bg-pattern-left {
   left: 0;
   top: 29.5rem;
@@ -30,7 +32,7 @@ body {
 }
 
 .work .bg-pattern {
-  right: 7.5rem;
+  right: 8rem;
 }
 
 .footer__container .bg-pattern {
@@ -178,7 +180,9 @@ body {
   margin: 0 0 3rem 0;
 }
 
-.footer__container ul {
+.footer__container .content ul {
+  display: flex;
+  flex-direction: column;
   padding: 0;
   position: relative;
   z-index: 2;
@@ -322,7 +326,7 @@ body {
     position: relative;
     z-index: 2;
     font-size: 0.95rem;
-    padding: 0rem 3rem 3rem 3rem;
+    padding: 0rem 2rem 0 2rem;
     height: 480px;
   }
 
@@ -352,7 +356,7 @@ body {
   }
 
   .content__container .bg-pattern-mobile {
-    right: -14rem;
+    right: -13.6rem;
     top: -15rem;
     z-index: 100;
   }
@@ -395,7 +399,7 @@ body {
   .work .bg-pattern-mobile {
     position: relative;
     z-index: 1;
-    right: -10rem;
+    right: -6rem;
     top: 0;
   }
 
@@ -431,7 +435,7 @@ body {
 }
 
 
-@media (max-width: 991.98px) {
+@media (min-width: 376px) and (max-width: 991.98px) {
   .nav__container {
     width: 100%;
     padding: 0;
@@ -546,7 +550,7 @@ body {
     flex-direction: column;
     margin-top: 5rem;
   }
-
+/*
   .footer__container {
     text-align: center;
     padding: 0;
@@ -556,7 +560,7 @@ body {
   .footer__container .content {
 
     padding: 0 6rem 0 6rem;
-  }
+  } */
 
   .footer__container .content :last-of-type div ul {
     display: flex;
